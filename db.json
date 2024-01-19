@@ -1,0 +1,100 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Rohit",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address":{
+        "area":"Pune"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address":{
+        "area":"Pune"
+      }
+    },
+    {
+      "id": "Jhon1",
+      "name": "raj",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address":{
+        "area":"Pune"
+      }
+    },
+    {
+      "id": "user2",
+      "name": "rohan",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address":{
+        "area":"banglore"
+      }
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  
+  "customer":[
+    {
+      "id":1,
+      "name":"Rohit",
+      "Creditlimit":1000
+    },
+    {
+      "id":2,
+      "name":"rahul",
+      "Creditlimit":1000
+    },
+    {
+      "id":3,
+      "name":"raj",
+      "Creditlimit":1000
+    },
+    {
+      "id":4,
+      "name":"rohan",
+      "Creditlimit":1000
+    },
+    {
+      "id":5,
+      "name":"vishal",
+      "Creditlimit":1000
+    }
+  ]
+}
